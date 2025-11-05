@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: #1b244a;
+  width: 575px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  width: 405px;
+}
+
+.middleRow {
+  display: flex;
+  justify-content: space-between;
+  width: 405px;
+}
+
+.player {
+  text-align: center;
+  width: 155px;
+  margin-top: 0;
+  color: white;
+  font-family: Verdana;
+}
+
+.score {
+  font-family: Cursed Timer ULiL;
+  font-size: 90px;
+  background-color: black;
+  color: #f94f6d;
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  width: 405px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 20px;
+  width: 155px;
+}
+
+.buttons button {
+  background-color: #1b244a;
+  color: #9aabd8;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  font-family: Cursed Timer ULiL;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.newGame {
+  margin-top: 20px;
+  background-color: #1b244a;
+  color: #9aabd8;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  font-family: Cursed Timer ULiL;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
